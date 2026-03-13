@@ -115,7 +115,7 @@
   .terminal-title { font-family: var(--font-mono); font-size: 11px; color: var(--muted); margin: 0 auto; }
   .terminal-body { padding: clamp(12px,3vw,24px); overflow-x: auto; }
   .t-line { font-family: var(--font-mono); font-size: clamp(10px,1.4vw,12px); line-height: 2.1; color: var(--sub); display: block; white-space: nowrap; }
-  .t-line .prompt{color:var(--cyan)} .t-line .cmd{color:var(--text)} .t-line .val{color:var(--green)} .t-line .comment{color:var(--muted)}
+  .t-line .prompt{color:var(--cyan)} .t-line .cmd{color:var(--text)} .t-line .val{color:var(--text)} .t-line .comment{color:var(--muted)}
   .t-cursor { display: inline-block; width: 8px; height: 13px; background: var(--cyan); vertical-align: middle; animation: blink 1s infinite; margin-left: 2px; }
   @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
   .hero-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--border); border-top: 1px solid var(--border); }
@@ -508,21 +508,21 @@
     <div class="divider reveal delay-2"></div>
     <div class="skills-grid">
       <div class="reveal delay-1">
-        <div class="skill-category-title">// Data & Analytics</div>
+        <div class="skill-category-title">Data & Analytics</div>
         <div class="skill-item"><div class="skill-row"><span class="skill-name">Power BI</span><span class="skill-pct">90%</span></div><div class="skill-bar-bg"><div class="skill-bar" data-width="90"></div></div></div>
         <div class="skill-item"><div class="skill-row"><span class="skill-name">SQL</span><span class="skill-pct">85%</span></div><div class="skill-bar-bg"><div class="skill-bar" data-width="85"></div></div></div>
         <div class="skill-item"><div class="skill-row"><span class="skill-name">Excel / Tableau</span><span class="skill-pct">88%</span></div><div class="skill-bar-bg"><div class="skill-bar" data-width="88"></div></div></div>
-        <div class="skill-item"><div class="skill-row"><span class="skill-name">Python (Data)</span><span class="skill-pct">80%</span></div><div class="skill-bar-bg"><div class="skill-bar" data-width="80"></div></div></div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">Python</span><span class="skill-pct">90%</span></div><div class="skill-bar-bg"><div class="skill-bar" data-width="90"></div></div></div>
       </div>
       <div class="reveal delay-2">
-        <div class="skill-category-title">// Systems & Platforms</div>
-        <div class="skill-item"><div class="skill-row"><span class="skill-name">SAP S/4 HANA</span><span class="skill-pct">82%</span></div><div class="skill-bar-bg"><div class="skill-bar purple-bar" data-width="82"></div></div></div>
-        <div class="skill-item"><div class="skill-row"><span class="skill-name">ServiceNow / Jira</span><span class="skill-pct">78%</span></div><div class="skill-bar-bg"><div class="skill-bar purple-bar" data-width="78"></div></div></div>
+        <div class="skill-category-title">Systems & Platforms</div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">SAP S/4 HANA</span><span class="skill-pct">75%</span></div><div class="skill-bar-bg"><div class="skill-bar purple-bar" data-width="75"></div></div></div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">ServiceNow / Jira</span><span class="skill-pct">90%</span></div><div class="skill-bar-bg"><div class="skill-bar purple-bar" data-width="90"></div></div></div>
         <div class="skill-item"><div class="skill-row"><span class="skill-name">AWS / Azure</span><span class="skill-pct">70%</span></div><div class="skill-bar-bg"><div class="skill-bar purple-bar" data-width="70"></div></div></div>
-        <div class="skill-item"><div class="skill-row"><span class="skill-name">MS Project / Smartsheet</span><span class="skill-pct">76%</span></div><div class="skill-bar-bg"><div class="skill-bar purple-bar" data-width="76"></div></div></div>
+        <div class="skill-item"><div class="skill-row"><span class="skill-name">ERP Tools</span><span class="skill-pct">85%</span></div><div class="skill-bar-bg"><div class="skill-bar purple-bar" data-width="85"></div></div></div>
       </div>
       <div class="reveal delay-3" style="grid-column:1/-1">
-        <div class="skill-category-title">// All Tools & Technologies</div>
+        <div class="skill-category-title">All Tools & Technologies</div>
         <div class="tools-wrap">
           <span class="tool-pill">Power BI</span><span class="tool-pill">SQL</span><span class="tool-pill">Python</span><span class="tool-pill">JavaScript</span><span class="tool-pill">CSS</span><span class="tool-pill">SAP S/4 HANA</span><span class="tool-pill">NetSuite</span><span class="tool-pill">ServiceNow</span><span class="tool-pill">Jira</span><span class="tool-pill">MS Project</span><span class="tool-pill">Smartsheet</span><span class="tool-pill">Excel</span><span class="tool-pill">Tableau</span><span class="tool-pill">AWS</span><span class="tool-pill">Azure</span><span class="tool-pill">Cloudflare</span><span class="tool-pill">GitHub</span><span class="tool-pill">Netlify</span><span class="tool-pill">Gen AI</span><span class="tool-pill">Prompt Engineering</span><span class="tool-pill">Agile</span><span class="tool-pill">Waterfall</span><span class="tool-pill">SDLC</span><span class="tool-pill">Oracle</span><span class="tool-pill">Google Analytics</span><span class="tool-pill">Microsoft 365</span>
         </div>
@@ -540,7 +540,7 @@
     <div class="contact-grid">
       <div class="reveal-left delay-1">
         <p class="contact-headline">Open to<br><span style="color:var(--cyan)">new roles</span></p>
-        <p class="contact-sub">Actively looking for full-time opportunities in data analytics, IT project management, or business analyst — particularly in Europe. Let's talk!</p>
+        <p class="contact-sub">Actively looking for full-time opportunities in data analytics, IT project management or business analyst roles. Let's talk!</p>
         <div class="contact-links">
           <a href="mailto:mannem.vsc28@gmail.com" class="contact-link"><div class="cl-icon">✉</div><div><span class="cl-label">Email</span><span class="cl-value">mannem.vsc28@gmail.com</span></div></a>
           <a href="tel:+33748612181" class="contact-link"><div class="cl-icon">📞</div><div><span class="cl-label">Phone</span><span class="cl-value">+33 7 48 61 21 81</span></div></a>
@@ -550,8 +550,7 @@
       </div>
       <div class="reveal-right delay-2">
         <div class="availability-card">
-          <div class="av-title">CURRENTLY<br><span>AVAILABLE</span></div>
-          <p class="av-sub">Based in Lyon, France. Open to full-time positions, contract roles, and consulting engagements across Europe and remotely worldwide.</p>
+          <div class="av-title">CURRENTLY<br><span style="color:var(--green)">AVAILABLE</span></div>          <p class="av-sub">Based in Lyon, France. Open to full-time positions, contract roles, and consulting engagements across Europe and remotely worldwide.</p>
           <div class="av-tags">
             <span class="av-tag">Data Analytics</span>
             <span class="av-tag">IT Project Management</span>
@@ -611,7 +610,7 @@ drawCanvas();
 
 /* TERMINAL */
 const lines=[
-  {k:'  Name: ',v:'Venkata Mannem'},
+  {k:'  Name: ',v:'VENKATA MANNEM'},
   {k:'  Based in: ',v:'Lyon, France'},
   {k:'  Currently: ',v:'Project Portfolio Management Office - INTERPOL 🇫🇷'},
   {k:'  Education: ',v:'BSc Computer Science, Minors in Business Management'},
